@@ -1,0 +1,16 @@
+.filtered-dropdown {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .filtered-dropdown select {
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 20px;
+  }
+  
+ 
+  .filtered-dropdown select:hover{
+    cursor: pointer;
+  }

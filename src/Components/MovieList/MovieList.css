@@ -1,0 +1,50 @@
+.main-content {
+    padding: 20px;
+    padding-top: 0px; 
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .search-bar,
+  .filter-dropdown,
+  .sort-dropdown {
+    width: 100%;
+    max-width: 600px;
+    margin: 10px 0;
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px 50px;
+    gap: 18px;
+  }
+  
+  h1 {
+    display: flex;
+    padding: auto;
+    margin-left: 10.6vw;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px; 
+    margin-bottom: 0px;
+    padding: 0 10.4vw; 
+  }
+  
+  .controls div {
+    display: flex;
+    align-items: center; 
+    margin: 0px ; 
+  }
+  
+  .filter-dropdown, .sort-dropdown {
+    margin: 0;
+  }
+  

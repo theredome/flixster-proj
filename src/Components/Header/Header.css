@@ -1,0 +1,32 @@
+.header {
+  background-color: #007bff;
+  color: white;
+  /* padding: 12px 20px; */
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 10vh;
+}
+
+.header .page-title {
+  display: flex;
+  align-items: left;
+}
+
+.header .page-title img {
+  width: 6.5vw;
+  height: fit-content;
+  margin-left: 0px;
+}
+
+.header img:hover{
+  cursor: pointer;
+}
+
+.header .search-bar {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
