@@ -1,12 +1,11 @@
-📝 `NOTE` Use this template to initialize the contents of a README.md file for your application. As you work on your assignment over the course of the week, update the required or stretch features lists to indicate which features you have completed by changing `[ ]` to `[x]`. (🚫 Remove this paragraph before submitting your assignment.)
 
 ## Unit Assignment: Flixster
 
 Submitted by: **Christopher Adeniji**
 
-Estimated time spent: **#** hours spent in total
+Estimated time spent: **9** hours spent in total
 
-Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
+Deployed Application (optional): [Flixster Deployed Site](https://flixster-proj.onrender.com)
 
 ### Application Features
 
@@ -28,15 +27,15 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
   - [x ] Users can view more details about a movie in a popup, such as runtime in minutes, backdrop poster, release date, genres, and/or an overview.
 - [x] **Sorting Options**
   - [ x] Users can click on a filter by drop down to sort product by type (alphabetic, release date, rating).
-- [ ] **Layout**
-  - [ ] Website displays header, banner, search, movie grid, about, contact, and footer section.
+- [ x] **Layout**
+  - [ x] Website displays header, banner, search, movie grid, about, contact, and footer section.
 
 #### STRETCH FEATURES
 
 - [ ] **Deployment**
   - [ ] Website is deployed via Render.
-- [ ] **Embedded Movie Trailers**
-  - [ ] Within the popup displaying a movie's details, users can play the movie trailer.
+- [x] **Embedded Movie Trailers**
+  - [x] Within the popup displaying a movie's details, users can play the movie trailer.
 - [ ] **Watched Checkbox**
   - [ ] For each movie displayed, users can mark the movie as watched.
 - [ ] **Favorite Button**
@@ -55,15 +54,15 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+The topics helped me understand some of the core setup compenents in the project and being able to get it started and run properly in the beginning.
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
+I would find a way to get youtube videos to play without having to be clicked then I would also add a seperate link to set it up to foward you to a priate site so you can watch the movie actually. I'd also adjust the page so there's an actual home page that has recommend and top movies and you can side tab to search for more.
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+Most went as planned, I saw my peer had vids so I got that in after the demo, what I didn't add was the media query to check your preference (light or dark mode) and adjust the sight to that perferance. 
 
 ### Open-source libraries used
 
@@ -71,4 +70,4 @@ Add your response here
 
 ### Shout out
 
-Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+Thanks Andy and Bailey for helping with insparation and deploying the site.
