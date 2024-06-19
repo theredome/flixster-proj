@@ -73,14 +73,22 @@ function MovieList() {
   };
 
   const fetchMovieDetails = async (movieId) => {
-    const url = `https://api.themoviedb.org/3/movie/${movieId}?api_key=${API_KEY}&language=en-US`;
+    const url = `https://api.themoviedb.org/3/movie/${movieId}?api_key=${API_KEY}&language=en-US&append_to_response=videos`;
     try {
       const response = await fetch(url);
       if (!response.ok) {
         throw new Error('Failed to fetch movie details');
       }
       const data = await response.json();
-      setSelectedMovie(data);
+
+      const trailer = data.videos.results.find(video => video.type === 'Trailer' && video.site === 'YouTube');
+      console.log('Fetched Movie Details:', data); // Debug statement
+      console.log('Fetched Trailer:', trailer); // Debug statement
+
+      setSelectedMovie({
+        ...data,
+        trailerKey: trailer ? trailer.key : null
+      });
     } catch (error) {
       console.error('Error fetching movie details:', error);
     }
@@ -146,7 +154,7 @@ function MovieList() {
             <MovieCard
               key={movie.id}
               movie={movie}
-              onClick={handleMovieClick}
+              onClick={() => handleMovieClick(movie.id)}
             />
           ))}
         </div>
